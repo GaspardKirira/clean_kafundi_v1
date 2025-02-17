@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/softadastra/usafi_crow/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/softadastra/usafi_crow/src -I/home/softadastra/usafi_crow/src/categries -I/home/softadastra/usafi_crow/src/services -I/home/softadastra/usafi_crow/src/sub_services -I/home/softadastra/usafi_crow/src/user -I/home/softadastra/usafi_crow/src/utils -I/home/softadastra/usafi_crow/Crow/include -I/home/softadastra/usafi_crow/libs/bcrypt -I/home/softadastra/usafi_crow/src/exceptions -I/usr/include/mysql -I/usr/local/include/spdlog  -Wall -g -fsanitize=address -g -std=gnu++17 -o CMakeFiles/prog.dir/src/main.cpp.o -c /home/softadastra/usafi_crow/src/main.cpp",
+  "file": "/home/softadastra/usafi_crow/src/main.cpp",
+  "output": "CMakeFiles/prog.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/softadastra/usafi_crow/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/softadastra/usafi_crow/src -I/home/softadastra/usafi_crow/src/categries -I/home/softadastra/usafi_crow/src/services -I/home/softadastra/usafi_crow/src/sub_services -I/home/softadastra/usafi_crow/src/user -I/home/softadastra/usafi_crow/src/utils -I/home/softadastra/usafi_crow/Crow/include -I/home/softadastra/usafi_crow/libs/bcrypt -I/home/softadastra/usafi_crow/src/exceptions -I/usr/include/mysql -I/usr/local/include/spdlog  -Wall -g -fsanitize=address -g -std=gnu++17 -o CMakeFiles/prog.dir/src/user/User.cpp.o -c /home/softadastra/usafi_crow/src/user/User.cpp",
+  "file": "/home/softadastra/usafi_crow/src/user/User.cpp",
+  "output": "CMakeFiles/prog.dir/src/user/User.cpp.o"
+},
+{
+  "directory": "/home/softadastra/usafi_crow/build",
+  "command": "/usr/bin/g++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_FILESYSTEM_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -I/home/softadastra/usafi_crow/src -I/home/softadastra/usafi_crow/src/categries -I/home/softadastra/usafi_crow/src/services -I/home/softadastra/usafi_crow/src/sub_services -I/home/softadastra/usafi_crow/src/user -I/home/softadastra/usafi_crow/src/utils -I/home/softadastra/usafi_crow/Crow/include -I/home/softadastra/usafi_crow/libs/bcrypt -I/home/softadastra/usafi_crow/src/exceptions -I/usr/include/mysql -I/usr/local/include/spdlog  -Wall -g -fsanitize=address -g -std=gnu++17 -o CMakeFiles/prog.dir/src/user/UserRepository.cpp.o -c /home/softadastra/usafi_crow/src/user/UserRepository.cpp",
+  "file": "/home/softadastra/usafi_crow/src/user/UserRepository.cpp",
+  "output": "CMakeFiles/prog.dir/src/user/UserRepository.cpp.o"
+}
+]

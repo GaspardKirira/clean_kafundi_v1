@@ -1,0 +1,35 @@
+project/
+├── CMakeLists.txt         # Fichier de configuration pour construire ton projet
+├── src/
+│   ├── main.cpp           # Entrée principale du serveur
+│   ├── api/
+│   │   ├── gateway.cpp    # API Gateway avec Boost.Beast
+│   │   ├── routes/        # Définitions des endpoints REST
+│   │   │   ├── accounting_routes.cpp
+│   │   │   ├── auth_routes.cpp
+│   │   │   └── finance_routes.cpp
+│   │   └── utils/         # Fonctions utilitaires (parsing JSON, etc.)
+│   ├── modules/
+│   │   ├── auth/          # Module Authentification
+│   │   │   ├── auth_service.cpp
+│   │   │   ├── jwt_handler.cpp
+│   │   │   └── users_model.cpp
+│   │   ├── accounting/    # Module Comptabilité
+│   │   │   ├── accounting_service.cpp
+│   │   │   └── accounting_model.cpp
+│   │   ├── finance/       # Module Prévision Financière
+│   │   │   ├── prediction_service.cpp
+│   │   │   └── ai_model.cpp
+│   │   └── blockchain/    # Module Blockchain
+│   │       ├── blockchain_service.cpp
+│   │       └── contracts_handler.cpp
+│   ├── db/
+│   │   ├── db_connection.cpp
+│   │   └── migrations/    # Scripts pour créer les tables
+│   │       ├── 01_create_users.sql
+│   │       ├── 02_create_transactions.sql
+│   │       └── ...
+│   └── tests/             # Tests unitaires
+├── include/               # Fichiers header pour toutes les classes
+├── docs/                  # Documentation pour ton projet
+└── assets/                # Autres ressources (exemple : fichiers de configuration JSON)
